@@ -50,6 +50,7 @@ namespace SeleniumService
 
                 _driver.Quit();
                 log.Info("Firefox succussfully closed");
+                log.Warn("Car Started");
             }
             catch(Exception ex)
             {
